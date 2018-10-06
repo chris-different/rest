@@ -1,0 +1,20 @@
+<!DOCTYPEhtml>
+<htmllang="en">
+<head>
+    <metacharset="UTF-8">
+    <title>show all users</title>
+</head>
+<body>
+#set($foo = "Velocity")
+        <h1>${name}</h1>
+<h2>11</h2>
+<h3>$foo</h3>
+
+
+#foreach( $product in $allProducts)
+    <li>$product</li>
+#end
+
+</body>
+</html>
+
